@@ -42,11 +42,11 @@ type options struct {
 	sign                    []byte
 	cookieName              string
 	cookieLifeTime          int
-	secure                  bool
 	domain                  string
 	sameSite                http.SameSite
 	expired                 int64
 	sessionID               IDHandlerFunc
+	secure                  bool
 	enableSetCookie         bool
 	enableSIDInURLQuery     bool
 	enableSIDInHTTPHeader   bool
